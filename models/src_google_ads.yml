@@ -28,6 +28,10 @@ sources:
             description: "{{ doc('cost') }}"
           - name: impressions
             description: "{{ doc('impressions') }}"
+          - name: conversions
+            description: "{{ doc('conversions') }}"
+          - name: conversions_value
+            description: "{{ doc('conversions_value') }}"
 
       - name: ad_history
         description: Each record represents a version of an ad in Google Ads.

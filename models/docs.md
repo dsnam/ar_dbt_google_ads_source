@@ -51,6 +51,14 @@ Status of the Campaign.
 The number of clicks.
 {% enddocs %}
 
+{% docs conversions %}
+The number of conversion.
+{% enddocs %}
+
+{% docs conversions_value %}
+The total dollar value of conversions.
+{% enddocs %}
+
 {% docs cost %}
 The sum of your cost-per-click (CPC) and cost-per-thousand impressions (CPM) costs during this period.
 {% enddocs %}
