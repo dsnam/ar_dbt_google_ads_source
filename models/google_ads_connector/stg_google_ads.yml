@@ -101,6 +101,10 @@ models:
         description: "{{ doc('cost') }}"
       - name: impressions
         description: "{{ doc('impressions') }}"
+      - name: conversions
+        description: "{{ doc('conversions') }}"
+      - name: conversions_value
+        description: "{{ doc('conversions_value') }}"
 
   - name: stg_google_ads__campaign_history
     description: Each record represents a version of a campaign in Google Ads.
