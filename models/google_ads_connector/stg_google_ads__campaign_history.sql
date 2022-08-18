@@ -27,7 +27,8 @@ final as (
         updated_at as updated_timestamp, 
         _fivetran_synced, 
         name as campaign_name,
-        customer_id as account_id
+        customer_id as account_id,
+        advertising_channel_type
     from fields
 ),
 

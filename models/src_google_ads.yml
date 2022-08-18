@@ -85,6 +85,9 @@ sources:
           - name: customer_id
             description: "{{ doc('external_customer_id') }}"
 
+      - name: campaign_stats
+        description: daily performance of a google ads campaign
+
       - name: account_history
         description: Each record represents a historical version of an account in Google Ads.
         columns:
